@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("montserrat.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "montserrat";
+}
+
+#about_content {
+  background-image: linear-gradient(
+      to right,
+      rgba(202, 31, 128, 0.411),
+      rgb(255, 255, 255, 1)
+    ),
+    url("img/about.png");
+  background-size: cover;
+}
+#appointment {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+}
